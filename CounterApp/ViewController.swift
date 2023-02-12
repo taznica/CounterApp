@@ -35,6 +35,15 @@ class ViewController: UIViewController {
         number = number + 1
         label.text = String(number)
     }
+    
+    // 画面遷移が起こるときに呼ばれる
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toSecond" {
+            if let secondVC = segue.destination as? SecondViewController {
+                secondVC.number = number
+            }
+        }
+    }
 }
 
 // DataSource (UIPickerViewでのデータの扱いをViewControllerに委任する)

@@ -21,8 +21,6 @@ class SecondViewController: UIViewController {
         
     }
     
-    // @IBActionをつけることでbutton等で起こるアクション(タップ等)と紐づけられる
-    // Main.storyboardの右サイドビューの"Connections Inspector"にある"plus"の右の丸からドラッグして画面上のbuttonにつなげる
     @IBAction func plus() {
         number = number + 1
         label.text = String(number)

@@ -17,6 +17,7 @@
 		758DAA17298B48F700B96567 /* CounterAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758DAA16298B48F700B96567 /* CounterAppTests.swift */; };
 		758DAA21298B48F700B96567 /* CounterAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758DAA20298B48F700B96567 /* CounterAppUITests.swift */; };
 		758DAA23298B48F700B96567 /* CounterAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758DAA22298B48F700B96567 /* CounterAppUITestsLaunchTests.swift */; };
+		75C795C329B02EA6005EF11E /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C795C229B02EA6005EF11E /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		758DAA1C298B48F700B96567 /* CounterAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		758DAA20298B48F700B96567 /* CounterAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterAppUITests.swift; sourceTree = "<group>"; };
 		758DAA22298B48F700B96567 /* CounterAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		75C795C229B02EA6005EF11E /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				758DA9FF298B48F600B96567 /* AppDelegate.swift */,
 				758DAA03298B48F600B96567 /* ViewController.swift */,
 				754FC13B29948ABF006014B9 /* SecondViewController.swift */,
+				75C795C229B02EA6005EF11E /* ThirdViewController.swift */,
 				755F31ED299E26B500368B3F /* FunctionParameterLabel.swift */,
 				758DAA05298B48F600B96567 /* Main.storyboard */,
 				758DAA08298B48F600B96567 /* Assets.xcassets */,
@@ -263,6 +266,7 @@
 			files = (
 				754FC13C29948ABF006014B9 /* SecondViewController.swift in Sources */,
 				758DAA04298B48F600B96567 /* ViewController.swift in Sources */,
+				75C795C329B02EA6005EF11E /* ThirdViewController.swift in Sources */,
 				755F31EE299E26B500368B3F /* FunctionParameterLabel.swift in Sources */,
 				758DAA00298B48F600B96567 /* AppDelegate.swift in Sources */,
 			);

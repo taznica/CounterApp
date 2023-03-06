@@ -103,11 +103,9 @@
 		758DA9FE298B48F600B96567 /* CounterApp */ = {
 			isa = PBXGroup;
 			children = (
+				75E9642E29B640B30002C333 /* CodeSamples */,
+				75E9642D29B640440002C333 /* ViewControllers */,
 				758DA9FF298B48F600B96567 /* AppDelegate.swift */,
-				758DAA03298B48F600B96567 /* ViewController.swift */,
-				754FC13B29948ABF006014B9 /* SecondViewController.swift */,
-				75C795C229B02EA6005EF11E /* ThirdViewController.swift */,
-				755F31ED299E26B500368B3F /* FunctionParameterLabel.swift */,
 				758DAA05298B48F600B96567 /* Main.storyboard */,
 				758DAA08298B48F600B96567 /* Assets.xcassets */,
 				758DAA0A298B48F600B96567 /* LaunchScreen.storyboard */,
@@ -131,6 +129,24 @@
 				758DAA22298B48F700B96567 /* CounterAppUITestsLaunchTests.swift */,
 			);
 			path = CounterAppUITests;
+			sourceTree = "<group>";
+		};
+		75E9642D29B640440002C333 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				758DAA03298B48F600B96567 /* ViewController.swift */,
+				754FC13B29948ABF006014B9 /* SecondViewController.swift */,
+				75C795C229B02EA6005EF11E /* ThirdViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		75E9642E29B640B30002C333 /* CodeSamples */ = {
+			isa = PBXGroup;
+			children = (
+				755F31ED299E26B500368B3F /* FunctionParameterLabel.swift */,
+			);
+			path = CodeSamples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

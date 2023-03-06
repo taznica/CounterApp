@@ -18,6 +18,7 @@
 		758DAA21298B48F700B96567 /* CounterAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758DAA20298B48F700B96567 /* CounterAppUITests.swift */; };
 		758DAA23298B48F700B96567 /* CounterAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758DAA22298B48F700B96567 /* CounterAppUITestsLaunchTests.swift */; };
 		75C795C329B02EA6005EF11E /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C795C229B02EA6005EF11E /* ThirdViewController.swift */; };
+		75E9643029B6418C0002C333 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E9642F29B6418C0002C333 /* FourthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		758DAA20298B48F700B96567 /* CounterAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterAppUITests.swift; sourceTree = "<group>"; };
 		758DAA22298B48F700B96567 /* CounterAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		75C795C229B02EA6005EF11E /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		75E9642F29B6418C0002C333 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				758DAA03298B48F600B96567 /* ViewController.swift */,
 				754FC13B29948ABF006014B9 /* SecondViewController.swift */,
 				75C795C229B02EA6005EF11E /* ThirdViewController.swift */,
+				75E9642F29B6418C0002C333 /* FourthViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75E9643029B6418C0002C333 /* FourthViewController.swift in Sources */,
 				754FC13C29948ABF006014B9 /* SecondViewController.swift in Sources */,
 				758DAA04298B48F600B96567 /* ViewController.swift in Sources */,
 				75C795C329B02EA6005EF11E /* ThirdViewController.swift in Sources */,
@@ -464,6 +468,8 @@
 				DEVELOPMENT_TEAM = 3S5R8F8YRM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CounterApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -492,6 +498,8 @@
 				DEVELOPMENT_TEAM = 3S5R8F8YRM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CounterApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
